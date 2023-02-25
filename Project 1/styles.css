@@ -1,0 +1,29 @@
+body{
+    background-color: hsl(220, 17%, 66%) !important;
+}
+.card{
+    background-color: hsl(212, 45%, 89%);
+    width: 33%;
+    height: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15% !important;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-text{
+    color: hsl(218deg 27% 67%);
+    font-weight: 400;
+    font-size: 15px;
+}
