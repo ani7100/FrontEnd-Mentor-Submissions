@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img class="logo" src="images/logo.svg" alt="">
+  <h1>We are launching <span class="last">soon!</span></h1> 
+  <p class="subs">Subscribe and get notified</p>
+  <form name="form1" action="#"> 
+  <input type="text" name="email" alt="Email" id="email" placeholder="Your email address..."><input class="button" type="submit" value="Notify Me" onclick="validateemail(document.form1.email)"/>
+  <br>
+  </form>
+  <label id="error"></label>
+  <div>
+    <img src="images/illustration-dashboard.png" alt="Dashboard" class="dashboard">
+  </div>
+  <div class="navbar">
+    <a  href="#!" ><img class="fb" src="images/fb.png" alt="facebook"></a>
+    <a  href="#!" ><img class="twitter" src="images/icons8-twitter-32.png" alt="twitter"></a>
+    <a  href="#!" ><img class="insta" src="images/insta.png" alt="instagram"></a>
+  </div>
+  <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Anirudhda</a>.
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
